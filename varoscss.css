@@ -1,0 +1,66 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    text-align: center;
+    border-bottom: 5px red solid;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    border-right: 5px red solid;
+}
+
+article{
+    gap: 5px;
+    padding: 5px;
+    text-align: center;
+    grid-template-columns: 3fr 1fr;
+}
+
+footer {
+    border-top: 5px red solid;
+}
+
+.szovegDiv {
+    display: grid;
+    grid-template-columns: 1fr 0.1fr;
+    gap: 20px;
+    font-size: 30px;
+    text-align: justify;
+    align-items: start;
+    align-items: center;
+    max-width: 100%;
+}
+
+#m {
+    height: 100%;
+
+}
+
+#varos {
+    height: 70%;
+}
+
+img {
+
+}
+
+h2 {
+
+}
+
+
+.kerdes_valasz_class {
+    display: grid;
+    gap: 20px;
+    font-size: 30px;
+    text-align: justify;
+    align-items: start;
+    align-items: center;
+}

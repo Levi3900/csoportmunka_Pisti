@@ -65,6 +65,9 @@ img{
     margin: 3px;
     max-height: 10px;
 }
+footer{
+    text-align: center;
+}
 @media screen and (max-width:1200px) {
      main{
         grid-template-columns: 1fr;

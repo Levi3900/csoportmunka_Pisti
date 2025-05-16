@@ -103,6 +103,9 @@ section{
 .sectionkerd{
     background-color: rgb(204, 255, 0);
 }
+footer{
+    text-align: center;
+}
 @media screen and (max-width:1400px) {
     .szovegDiv {
         grid-template-columns: 1fr;

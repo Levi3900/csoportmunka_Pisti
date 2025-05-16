@@ -101,13 +101,7 @@ a:hover{
 .varos{
     width: 50%;
 }
-@media screen and (max-width:1400px) {
-    main{
-        grid-template-columns: 1fr;
-
-    }
-}
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1200px) {
     main{
         grid-template-columns: 1fr;
     }

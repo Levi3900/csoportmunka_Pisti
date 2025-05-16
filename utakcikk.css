@@ -110,6 +110,9 @@ section{
 footer{
     text-align: center;
 }
+h2{
+    text-decoration: underline;
+}
 @media screen and (max-width:1400px) {
     .szovegDiv {
         grid-template-columns: 1fr;
@@ -144,4 +147,9 @@ footer{
         border-left: none;
         border-top: 5px solid red;
      }
+}
+h3{
+    text-decoration: underline double red;
+    text-align: left;
+    font-size: 30px;
 }

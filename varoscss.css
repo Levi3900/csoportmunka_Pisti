@@ -37,7 +37,7 @@ footer {
 
 .szovegDiv {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 7fr 1fr;
     gap: 20px;
     font-size: 30px;
     text-align: justify;

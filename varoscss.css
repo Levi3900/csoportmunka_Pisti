@@ -21,6 +21,10 @@ article{
     padding: 5px;
     text-align: center;
     grid-template-columns: 3fr 1fr;
+
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 footer {

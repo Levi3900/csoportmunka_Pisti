@@ -9,15 +9,18 @@ main{
     display: grid;
     grid-template-columns: 1fr 5fr;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 nav{
     text-align: center;
-    border-right: 5px red solid;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 50px 50px 50px 50px auto;
-    text-align: center;
+    grid-template-rows: 50px 50px 50px 50px auto;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    gap:5px;
 }
 a:hover{
     color: orange;
@@ -25,96 +28,87 @@ a:hover{
     background-color: rgb(18, 138, 138);
     font-size: 25px;
 }
-.linkek{
-    background-color: rgba(10, 89, 246, 0.269);
-    color: black;
-    text-decoration: none;
-    padding: 2px;
-    margin: 3px;
-    height: 35px;
-    border: 5px solid black;
-    border-radius: 10px;
-}
 
-
-.szovegrid{
-    gap: 5px;
-    padding: 5px;
-    text-align: center;
-    font-size: 30px;
-    text-align: justify;
-    margin: 20px;
-}
 
 footer {
     border-top: 5px red solid;
 }
-
+.kepgrid{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: justify;
+    gap: 10px;
+}
 .szovegDiv {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 20px;
     font-size: 30px;
     text-align: justify;
-    align-items: start;
     align-items: center;
     max-width: 100%;  
     gap:10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
-.szovegDiv1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    font-size: 30px;
-    text-align: justify;
-    align-items: start;
-    align-items: center;
-    max-width: 100%;  
-    gap:10px;
-}
-
-#cig {
-    height: 100%;
-}
-
 h2{
-    text-decoration: 2px underline double red;
-}
-
-.A {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.kerdes_valasz_class {
-    display: grid;
-    gap: 20px;
     font-size: 30px;
-    text-align: justify;
-    align-items: start;
-    align-items: center;
+    text-decoration: 2px underline double red;
+    text-align: left;
+}
+.linkek{
+    box-sizing: border-box;
+    background-color: rgba(10, 89, 246, 0.269);
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+section{
+    box-sizing: border-box;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(247, 217, 121);
+}
+article{
+    gap: 5px;
+    padding: 5px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    border-left: 5px solid red;
+}
+img{
+    border: 4px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.metro{
+    max-width: 70%;
+}
+.vonat{
+    max-width: 40%;
+}
+.haz{
+    max-width: 40%;
+}
+.nagyhaz{
+    max-width: 70%;
+}
+footer{
+    text-align: center;
+}
+.b{
+    width: 40%;
+    border-radius: 30px;
 }
 
-#Map {
-    width: 100%;
-    height: auto;
-  }
-
-  @media screen and (max-width:1400px) {
-    .szovegDiv {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 300px;
-        gap:2px;
-        font-size: 30px;
-        margin: auto;
-    }
-    .szovegDiv1 {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 300px;
-        gap:2px;
-        font-size: 30px;
-    }
-    
-}
 @media screen and (max-width:1200px) {
     .szovegDiv {
         font-size: 30px;
@@ -133,4 +127,15 @@ h2{
         border-left: none;
         border-top: 5px solid red;
      }
+}
+@media screen and (max-width:900px) {
+    .kep{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .kepgrid{
+        grid-template-columns: 1fr;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

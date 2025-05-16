@@ -71,6 +71,9 @@ footer {
     gap:10px;
 }
 
+#cig {
+    height: 100%;
+}
 
 h2{
     text-decoration: 2px underline double red;
@@ -92,44 +95,4 @@ h2{
 #Map {
     width: 100%;
     height: auto;
-  }
-  @media screen and (max-width:1200px) {
-    main {
-        grid-template-columns: 1fr;
-    }
-    nav {
-        border-right: none;
-        border-bottom: 5px red solid;
-    }
-  }
-  @media screen and (max-width:750px) {
-    main {
-        grid-template-columns: 1fr;
-    }
-    .szovegDiv {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-        font-size: 30px;
-        text-align: justify;
-        align-items: start;
-        align-items: center;
-        max-width: 100%;  
-        gap:10px;
-    }
-    .szovegDiv1 {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-        font-size: 30px;
-        text-align: justify;
-        align-items: start;
-        align-items: center;
-        max-width: 100%;  
-        gap:10px;
-    }
-    nav {
-        border-right: none;
-        border-bottom: 5px red solid;
-    }
   }

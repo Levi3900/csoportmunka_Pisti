@@ -45,7 +45,7 @@ footer {
 }
 .szovegDiv1 {
     display: grid;
-    grid-template-columns: 8fr 1fr 1fr;
+    grid-template-columns: 6fr 2fr 1fr;
     gap: 20px;
     font-size: 30px;
     text-align: justify;
@@ -56,12 +56,12 @@ footer {
 }
 
 #erd {
-    height: 50%;
+    width: 100%;
 
 }
 
 #cig {
-    height: 100%;
+    width: 100%;
 }
 
 img {
@@ -93,13 +93,13 @@ img {
 @media screen and (max-width:1600px) {
     .szovegDiv {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 20px;
         font-size: 30px;
     }
     .szovegDiv1 {
         display: grid;
-        grid-template-columns: 8fr 1fr;
+        grid-template-columns: 1fr;
         gap: 20px;
         font-size: 30px;
         height: auto;

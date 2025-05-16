@@ -44,20 +44,11 @@ article{
 footer {
     border-top: 5px red solid;
 }
-.cikklink{
-    text-decoration: none;
-    font-size: 23px;
-    color: black;
-    text-transform:uppercase;
-}
 a:hover{
     color: rgb(2, 15, 255);
     text-decoration: underline;
 }
-.cikkep{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 img{
     border: 4px solid black;
     border-radius: 5px;

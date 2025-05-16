@@ -61,11 +61,15 @@ footer {
 #erd {
     width: 500px;
     border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #cig {
     width: 80% auto;
     border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img{
@@ -101,7 +105,7 @@ section{
     background-color: rgb(247, 217, 121);
 }
 .sectionkerd{
-    background-color: rgb(204, 255, 0);
+    background-color: rgb(173, 173, 61);
 }
 @media screen and (max-width:1400px) {
     .szovegDiv {

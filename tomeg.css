@@ -22,6 +22,12 @@ nav{
     margin-right: auto;
     gap:5px;
 }
+a:hover{
+    color: orange;
+    text-decoration: underline;
+    background-color: rgb(18, 138, 138);
+    font-size: 25px;
+}
 .szovegrid{
     gap: 5px;
     padding: 5px;

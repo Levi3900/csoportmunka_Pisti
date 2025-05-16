@@ -14,9 +14,10 @@ main{
 nav{
     text-align: center;
     border-right: 5px red solid;
-    border-left: 5px red solid;
-    display:grid;
-    grid-template-columns: 1fr ;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 50px 50px 50px auto;
+    text-align: justify;
 }
 
 article{

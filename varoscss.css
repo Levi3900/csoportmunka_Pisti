@@ -37,7 +37,12 @@ body {
 footer {
     border-top: 5px red solid;
 }
-
+a:hover{
+    color: orange;
+    text-decoration: underline;
+    background-color: rgb(18, 138, 138);
+    font-size: 25px;
+}
 .szovegDiv {
     display: grid;
     grid-template-columns: 1fr 0.1fr;

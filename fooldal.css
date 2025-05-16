@@ -57,8 +57,10 @@ footer {
     text-transform:uppercase;
 }
 a:hover{
-    color: rgb(2, 15, 255);
+    color: orange;
     text-decoration: underline;
+    background-color: rgb(18, 138, 138);
+    font-size: 25px;
 }
 .cikkep{
     display: grid;

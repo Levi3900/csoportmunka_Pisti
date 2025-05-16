@@ -20,8 +20,10 @@ nav{
     text-align: center;
 }
 a:hover{
+    color: orange;
     text-decoration: underline;
-    color: blue;
+    background-color: rgb(18, 138, 138);
+    font-size: 25px;
 }
 .linkek{
     background-color: rgba(10, 89, 246, 0.269);
@@ -96,3 +98,39 @@ h2{
     width: 100%;
     height: auto;
   }
+
+  @media screen and (max-width:1400px) {
+    .szovegDiv {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 300px;
+        gap:2px;
+        font-size: 30px;
+        margin: auto;
+    }
+    .szovegDiv1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 300px;
+        gap:2px;
+        font-size: 30px;
+    }
+    
+}
+@media screen and (max-width:1200px) {
+    .szovegDiv {
+        font-size: 30px;
+        text-align: justify;
+    }
+    .szovegDiv1 {
+        font-size: 30px;
+        height: auto;
+    }
+    main{
+        grid-template-columns: 1fr;
+        gap: 15px;
+     }
+     article{
+        grid-template-columns: 1fr;
+        border-left: none;
+        border-top: 5px solid red;
+     }
+}

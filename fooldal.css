@@ -98,12 +98,12 @@ footer{
         text-align: center;
      }
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:1000px) {
     article{
         grid-template-columns: 1fr 1fr;
     }
 }
-@media screen and (max-width:750px) {
+@media screen and (max-width:890px) {
      main{
         grid-template-columns: 1fr;
      }

@@ -1,4 +1,4 @@
-header{
+widthheader{
     display: grid;
     grid-template-columns: 1fr 10fr;
     text-align: center;
@@ -6,6 +6,7 @@ header{
 }
 
 main{
+  
     display: grid;
     grid-template-columns: 1fr 5fr;
     text-align: center;
@@ -64,12 +65,9 @@ footer {
 }
 
 img {
+    width: 100%;
     border: 5px solid black;
     border-radius: 5px;
-}
-
-h2 {
-
 }
 
 
@@ -91,4 +89,81 @@ h2 {
     height: 50px;
     border: 5px solid black;
     border-radius: 10px;
+}
+@media screen and (max-width:1600px) {
+    .szovegDiv {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        font-size: 30px;
+    }
+    .szovegDiv1 {
+        display: grid;
+        grid-template-columns: 8fr 1fr;
+        gap: 20px;
+        font-size: 30px;
+        height: auto;
+    }
+    
+}
+@media screen and (max-width:1200px) {
+    .szovegDiv {
+        display: grid;
+        gap: 20px;
+        font-size: 30px;
+        text-align: justify;
+    }
+    .szovegDiv1 {
+        display: grid;
+        gap: 20px;
+        font-size: 30px;
+        height: auto;
+    }
+
+     nav{
+        border-right: 5px solid red;
+        text-decoration: none;
+        text-align: center;
+     }
+}
+@media screen and (max-width:900px) {
+    .szovegDiv {
+        display: grid;
+        gap: 20px;
+        font-size: 30px;
+        text-align: justify;
+    }
+    .szovegDiv1 {
+        display: grid;
+        gap: 20px;
+        font-size: 30px;
+        height: auto;
+    }
+    main{
+        grid-template-columns: 1fr;
+     }
+     article{
+        grid-template-columns: 1fr;
+     }
+}
+@media screen and (max-width:750px) {
+    .szovegDiv {
+        display: grid;
+        gap: 20px;
+        font-size: 30px;
+        text-align: justify;
+    }
+    .szovegDiv1 {
+        display: grid;
+        gap: 20px;
+        font-size: 30px;
+        height: auto;
+    }
+     main{
+        grid-template-columns: 1fr;
+     }
+     article{
+        grid-template-columns: 1fr;
+     }
+
 }

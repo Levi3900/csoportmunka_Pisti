@@ -20,7 +20,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 50px 50px 50px 50px auto;
-    text-align: justify;
+    text-align: center;
 }
 
 article{
@@ -40,7 +40,7 @@ footer {
 
 .szovegDiv {
     display: grid;
-    grid-template-columns: 7fr 1fr;
+    grid-template-columns: 1fr 0.1fr;
     gap: 20px;
     font-size: 30px;
     text-align: justify;
@@ -55,8 +55,18 @@ footer {
 }
 
 #varos {
-    height: 69%;
+    height: 70%;
 }
+
+img {
+
+}
+
+h2 {
+
+}
+
+
 .kerdes_valasz_class {
     display: grid;
     gap: 20px;

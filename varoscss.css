@@ -45,7 +45,7 @@ a:hover{
 }
 .szovegDiv {
     display: grid;
-    grid-template-columns: 1fr 0.1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     font-size: 30px;
     text-align: justify;
@@ -53,7 +53,16 @@ a:hover{
     align-items: center;
     max-width: 100%;
 }
-
+.szovegDiv1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    font-size: 30px;
+    text-align: justify;
+    align-items: start;
+    align-items: center;
+    max-width: 100%;
+}
 #m {
     height: 100%;
 
@@ -69,6 +78,14 @@ img {
 
 h2 {
 
+}
+section{
+    box-sizing: border-box;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(247, 217, 121);
 }
 
 

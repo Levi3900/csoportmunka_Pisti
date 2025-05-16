@@ -9,6 +9,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 5fr;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 nav{
@@ -22,6 +23,7 @@ article{
     gap: 5px;
     padding: 5px;
     text-align: center;
+    
 }
 
 .cikkek{
@@ -29,6 +31,7 @@ article{
     border-style: solid;
     border-width: 5px;
     background-color: rgb(185, 27, 27);
+
 }
 
 footer {
